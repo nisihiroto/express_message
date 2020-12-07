@@ -3,7 +3,7 @@ const rxpress = require('express');
 const app = express();
 
 app.get('/',(req, res) =>{
-    res.send('h');
+    res.send('Hello World!');
 
 });
 
